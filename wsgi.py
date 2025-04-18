@@ -11,8 +11,8 @@ import sys
 sys.path.insert(0, 
 os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates'))
 
-# Import the Flask app
-from glassrain_unified import app
+# Import the Flask app from templates directory
+from templates.glassrain_unified import app
 
 # This variable is used by Gunicorn
 application = app
