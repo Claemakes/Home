@@ -10,8 +10,8 @@ import sys
 # Add the templates directory to the Python path to enable imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-# Import the Flask app from templates directory
-from templates.glassrain_unified import app
+# Import the Flask app
+from glassrain_unified import app
 
 # This variable is used by Gunicorn
 application = app
